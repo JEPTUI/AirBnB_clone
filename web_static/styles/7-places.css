@@ -2,7 +2,9 @@
 	text-align: center;
 }
 .places h1 {
-	text-align: left;
+	position: absolute;
+	top: 0;
+	left: 0;
 	font size: 30px;
 }
 article {
