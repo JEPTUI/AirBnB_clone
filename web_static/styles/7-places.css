@@ -1,7 +1,5 @@
 .places {
-	border: 1px solid #FF5A5F;
-	border-radius: 4px;
-	padding: 20px;
+	text-align: center;
 }
 .places h1 {
 	text-align: left;
