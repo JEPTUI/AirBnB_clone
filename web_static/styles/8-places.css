@@ -47,8 +47,6 @@ div.number_bathrooms {
 	width: 100px;
 	height: 100%;
 	display: inline-block;
-	background-position: 50% 5px;
-	background-repeat: no-repeat;
 }
 .max_guest {
   background-image: url("../images/icon_group.png");
