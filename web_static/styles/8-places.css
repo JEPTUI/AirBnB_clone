@@ -1,4 +1,4 @@
-div.places {
+.places {
 	text-align: center;
 }
 .places h1 {
@@ -28,8 +28,8 @@ div.price_by_night {
 	height: 60px;
 	font size: 30px;
 	position: relative;
-	top: -60px;
-	float: right;
+	top: 20px;
+	right: 20px;
 }
 div.information {
 	height: 80px;
