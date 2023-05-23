@@ -3,7 +3,7 @@
 }
 .places h1 {
 	text-align: left;
-	font size: 30px;
+	font-size: 30px;
 }
 article {
 	width: 390px;
@@ -12,11 +12,12 @@ article {
 	border: 1px solid #FF5A5F;
 	border-radius: 4px;
 	display: inline-block;
+	align-items: flex-end;
 	min-height: 250px;
 	vertical-align: top;
 }
 article h2 {
-	font size: 30px;
+	font-size: 30px;
 	text-align: center;
 	display: inline-block;
 	justify-content: center;
@@ -69,32 +70,52 @@ article h2 {
 section.places article div.amenities,
 section.places article div.reviews {
 	margin-top: 40px;
+	text-align: left;
 }
 section.places article div.amenities h2,
 section.places article div.reviews h2 {
 	font-size: 16px;
 	border-bottom: 1px solid #DDDDDD;
-	font-weight: bold;
-	padding-bottom: 10px;
+}
+.amenities ul,
+.reviews ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.icon_tv,
+.icon_wifi,
+.icon_pet {
+	height: 0%;
+	width: 5%;
+	padding-top: 5%;
+	margin-right: 5%;
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: contain;
+	display: inline-block;
+	justify-content: space-around;
+}
+.icon_tv {
+  background-image: url("../images/icon_tv.png");
+}
+.icon_wifi {
+  background-image: url("../images/icon_wifi.png");
+}
+.icon_pet {
+  background-image: url("../images/icon_pets.png");
+}
+section.places article div.reviews li h3 {
+	font-size: 14px;
 	text-align: left;
 }
-section.places article div.reviews h3 {
-	font-size: 14px;
-	font-weight: bold;
-	margin-bottom: 6px;
-	margin-top: 20px;
-}
-section.places article div.reviews p {
+section.places article div.reviews li p {
         font-size: 12px;
-        margin-top: 20px;
+	text-align: left;
 }
 section.places article div.amenities li {
 	display: flex;
 	flex-direction: row;
-}
-section.places article div.amenities li,
-section.places article div.reviews li {
-       	padding-top: 15px;
 }
 footer {
   position: relative;
